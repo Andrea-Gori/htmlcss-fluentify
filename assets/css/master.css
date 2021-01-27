@@ -43,7 +43,7 @@ ul li {
 
 }
 
-ul li a {
+ul li a , div.titolo + a {
   text-decoration: none;
   color: white ;
   font-size: 15px;
@@ -61,6 +61,7 @@ ul li a {
   border: 2px solid white;
   border-radius: 10px;
   padding: 10px 25px;
+  margin: 0 15px;
 }
 
 .btn-green {
@@ -69,3 +70,28 @@ ul li a {
 }
 
 /* Header NAV */
+
+/* header jumbo */
+
+.jumbo {
+  background-image: url(../img/background-header.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+}
+
+.titolo {
+  color: white;
+  padding: 155px 0;
+  font-size: 50px;
+  width: 50%;
+}
+
+div.titolo + a {
+  position: absolute;
+  bottom: 60px;
+  left: 190px;
+  padding: 20px 10px;
+  line-height: normal;
+}
