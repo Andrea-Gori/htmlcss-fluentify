@@ -15,10 +15,41 @@
 }
 
 .container {
-  width: 80%
+  width: 80%;
 }
  /* HEADER */
 
  header {
    background-color: rgb(12, 50, 90);
+   height: 80px;
  }
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+ul li {
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+ul li a {
+  text-decoration: none;
+  color: white ;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 20px;
+  text-transform: uppercase;
+  line-height: 80px;
+}
+
+.btn {
+  float: right;
+}
