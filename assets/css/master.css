@@ -16,17 +16,20 @@
 
 .container {
   width: 80%;
+  margin: 0 auto;
 }
  /* HEADER */
 
  header {
    background-color: rgb(12, 50, 90);
-   height: 80px;
  }
+
+ /* Header NAV */
 
 .logo {
   display: inline-block;
   vertical-align: middle;
+  margin-right: 30px;
 }
 
 ul {
@@ -45,11 +48,24 @@ ul li a {
   color: white ;
   font-size: 15px;
   font-weight: bold;
-  padding-left: 20px;
+  padding: 10px 10px;
   text-transform: uppercase;
   line-height: 80px;
 }
 
-.btn {
+.buttons {
   float: right;
 }
+
+.btn-bordered {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px 25px;
+}
+
+.btn-green {
+  background-color: rgb(124, 187, 2);
+  border-radius: 10px;
+}
+
+/* Header NAV */
