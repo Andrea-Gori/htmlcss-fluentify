@@ -144,16 +144,19 @@ div.col-33 img {
 .profile-txt {
   width: 60%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .computer-txt {
   width: 75%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .doc-txt {
   width: 70%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .main-body-hr {
@@ -162,6 +165,10 @@ div.col-33 img {
 }
 
 /* Main-body-1 */
+
+.main-body-hr-2 {
+  margin: 50px 0;
+}
 
 /* Main-body-2 */
 
