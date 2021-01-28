@@ -111,7 +111,7 @@ ul li a , .btn-big {
 /* Main-Top */
 .bg-gray {
   background-color: rgb(211, 211, 211);
-  height: 100px;
+  height: 120px;
 }
 
 .main-top-txt {
@@ -179,13 +179,13 @@ div.col-33 img {
 
 
 .main-body-2-txt {
-  width: 50%;
+  width: 70%;
   margin: 9px auto;
   font-size: 25px;
 }
 
 .main-body-2-p {
-  width: 50%;
+  width: 70%;
   margin: 9px auto;
 }
 
@@ -199,8 +199,12 @@ div.col-33 img {
 /* Footer */
 
 .container-footer {
-  padding: 38px 10%;
-  line-height: 
+  padding: 40px ;
+}
+
+div.container-footer h2 {
+  display: inline-block;
+
 }
 
 .footer-txt {
@@ -211,9 +215,38 @@ div.col-33 img {
 .btn {
   float: right;
   vertical-align: middle;
+  line-height: 2;
 }
 
+.btn li {
+  margin: 0 15px;
+}
 
+.line- {
+  line-height: 0
+}
+
+.selection {
+  border-bottom: 1px solid black;
+}
+
+.selection:after {
+  content: '\25bc' ;
+  padding-left: 50px;
+}
+
+#help {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white ;
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  background: #7cbb02;
+}
 
 /* Footer */
 
