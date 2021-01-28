@@ -1,3 +1,4 @@
+/* Layout */
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +19,12 @@
   width: 80%;
   margin: 0 auto;
 }
+/* Layout */
+/* Tipography */
+body {
+  font-family: 'Roboto' ,sans-serif;
+}
+
  /* HEADER */
 
  header {
@@ -43,7 +50,7 @@ ul li {
 
 }
 
-ul li a , div.titolo + a {
+ul li a , .btn-big {
   text-decoration: none;
   color: white ;
   font-size: 15px;
@@ -77,21 +84,113 @@ ul li a , div.titolo + a {
   background-image: url(../img/background-header.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right;
-  position: relative;
+  background-position: 110% 100%;
 }
 
 .titolo {
   color: white;
-  padding: 155px 0;
-  font-size: 50px;
+  padding-top: 125px;
+  padding-bottom: 200px;
   width: 50%;
 }
 
-div.titolo + a {
-  position: absolute;
-  bottom: 60px;
-  left: 190px;
-  padding: 20px 10px;
-  line-height: normal;
+.title-txt {
+  font-size: 60px;
+  margin-bottom: 15px;
 }
+
+.btn-big {
+  padding: 25px 10px ;
+}
+
+/* header jumbo */
+/* HEADER */
+
+/* MAIN */
+
+/* Main-Top */
+.bg-gray {
+  background-color: rgb(211, 211, 211);
+  height: 100px;
+}
+
+.main-top-txt {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.txt-gray {
+  color: rgb(128, 128, 128);
+}
+
+/* Main-Top */
+
+/* Main-body */
+
+div.col-33 img {
+  padding-top: 30px;
+  margin: 0 25%;
+}
+
+.img-profile {
+  width: 33%;
+}
+
+.img-computer {
+  width: 60%;
+}
+
+.img-doc {
+  width: 38%;
+}
+
+.main-body-txt {
+  color: rgb(124, 187, 2);
+  text-align: center;
+  margin-top: 5px;
+  font-size: 25px;
+}
+
+.profile-txt {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.computer-txt {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.doc-txt {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main-body-hr {
+  width: 15%;
+  margin: 20px auto;
+}
+
+.main-body-p
+
+
+
+/* Main-body */
+
+/* MAIN */
+
+/* UTILITY */
+
+.col-100{
+  width: 100%;
+}
+
+.col-33{
+  width: calc(100% / 3);
+}
+
+.col-50 {
+  width: calc(100% / 2);
+}
+
+/* UTILITY */
