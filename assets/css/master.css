@@ -196,6 +196,26 @@ div.col-33 img {
 /* Main-body-2 */
 
 /* MAIN */
+/* Footer */
+
+.container-footer {
+  padding: 38px 10%;
+  line-height: 
+}
+
+.footer-txt {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.btn {
+  float: right;
+  vertical-align: middle;
+}
+
+
+
+/* Footer */
 
 /* UTILITY */
 
